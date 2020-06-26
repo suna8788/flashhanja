@@ -22,7 +22,7 @@ Paper.rect(0, 0, 360, 640, 6).attr({
 var topArea = Paper.g();
 
 logo.use().transform('t70, 50').appendTo(topArea);
-topArea.text(180, 140, 'FLASH CARD').attr({
+topArea.text(180, 140, 'MEMORY APP').attr({
   'font-size': 40,
   'font-weight': 'bold',
   'text-anchor': 'middle'
